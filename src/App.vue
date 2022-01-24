@@ -1,4 +1,5 @@
 <template>
+    <img src="./assets/logo-school.png" alt="logo school">
     
     <HelloWorld msg="Hello World!"/>
 </template>
@@ -15,5 +16,12 @@
 </script>
 
 <style>
+    #app {
+        text-align: center;
+    }
+
+    img {
+        width: 25%;
+    }
 
 </style>
