@@ -62,6 +62,9 @@
                 // );
             }
         },
+        mounted() {
+            this.getWeather();
+        }
     }
 </script>
 
