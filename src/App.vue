@@ -1,27 +1,24 @@
 <template>
-    <img src="./assets/logo-school.png" alt="logo school">
+    <img class="logo" src="./assets/logo-school.png" alt="logo school">
     
-    <Weather />
+    <weather />
 </template>
 
 <script>
-    import Weather from './components/Weather.vue';
-
     export default {
         name: 'App',
-        components: {
-            Weather
-        }
     }
 </script>
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
     #app {
         text-align: center;
+        font-family: 'Roboto', sans-serif;
     }
 
-    img {
-        width: 25%;
+    img.logo {
+        width: 25vh;
     }
-
 </style>
