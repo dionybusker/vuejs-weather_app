@@ -18,7 +18,7 @@
         font-family: 'Roboto', sans-serif;
     }
 
-    img.logo {
+    .logo {
         width: 25vh;
     }
 </style>
